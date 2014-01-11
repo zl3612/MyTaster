@@ -34,17 +34,6 @@
 		2C1FCBA818807A6500D0B37A /* makalong.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2C1FCBA718807A6500D0B37A /* makalong.jpeg */; };
 		2C1FCBAC188092EA00D0B37A /* action.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1FCBAB188092EA00D0B37A /* action.png */; };
 		2C1FCBB11880BF1A00D0B37A /* MT_SuggestionMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FCBB01880BF1A00D0B37A /* MT_SuggestionMainView.m */; };
-		2C5CFA7E1881EC820034BDA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFA6B1881EC820034BDA6 /* AppDelegate.m */; };
-		2C5CFA7F1881EC820034BDA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5CFA6C1881EC820034BDA6 /* Main.storyboard */; };
-		2C5CFA801881EC820034BDA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C5CFA6E1881EC820034BDA6 /* InfoPlist.strings */; };
-		2C5CFA811881EC820034BDA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5CFA701881EC820034BDA6 /* Images.xcassets */; };
-		2C5CFA821881EC820034BDA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFA711881EC820034BDA6 /* main.m */; };
-		2C5CFA831881EC820034BDA6 /* MT_ElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFA731881EC820034BDA6 /* MT_ElementView.m */; };
-		2C5CFA841881EC820034BDA6 /* MT_MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFA751881EC820034BDA6 /* MT_MainView.m */; };
-		2C5CFA851881EC820034BDA6 /* MT_SuggestionMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFA771881EC820034BDA6 /* MT_SuggestionMainView.m */; };
-		2C5CFA861881EC820034BDA6 /* MT_TopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFA791881EC820034BDA6 /* MT_TopBarView.m */; };
-		2C5CFA871881EC820034BDA6 /* Mytaster-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C5CFA7A1881EC820034BDA6 /* Mytaster-Info.plist */; };
-		2C5CFA881881EC820034BDA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CFA7D1881EC820034BDA6 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,24 +83,6 @@
 		2C1FCBAB188092EA00D0B37A /* action.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = action.png; path = ../../action.png; sourceTree = "<group>"; };
 		2C1FCBAF1880BF1A00D0B37A /* MT_SuggestionMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MT_SuggestionMainView.h; sourceTree = "<group>"; };
 		2C1FCBB01880BF1A00D0B37A /* MT_SuggestionMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MT_SuggestionMainView.m; sourceTree = "<group>"; };
-		2C5CFA6A1881EC820034BDA6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2C5CFA6B1881EC820034BDA6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2C5CFA6D1881EC820034BDA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2C5CFA6F1881EC820034BDA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2C5CFA701881EC820034BDA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2C5CFA711881EC820034BDA6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2C5CFA721881EC820034BDA6 /* MT_ElementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MT_ElementView.h; sourceTree = "<group>"; };
-		2C5CFA731881EC820034BDA6 /* MT_ElementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MT_ElementView.m; sourceTree = "<group>"; };
-		2C5CFA741881EC820034BDA6 /* MT_MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MT_MainView.h; sourceTree = "<group>"; };
-		2C5CFA751881EC820034BDA6 /* MT_MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MT_MainView.m; sourceTree = "<group>"; };
-		2C5CFA761881EC820034BDA6 /* MT_SuggestionMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MT_SuggestionMainView.h; sourceTree = "<group>"; };
-		2C5CFA771881EC820034BDA6 /* MT_SuggestionMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MT_SuggestionMainView.m; sourceTree = "<group>"; };
-		2C5CFA781881EC820034BDA6 /* MT_TopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MT_TopBarView.h; sourceTree = "<group>"; };
-		2C5CFA791881EC820034BDA6 /* MT_TopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MT_TopBarView.m; sourceTree = "<group>"; };
-		2C5CFA7A1881EC820034BDA6 /* Mytaster-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Mytaster-Info.plist"; sourceTree = "<group>"; };
-		2C5CFA7B1881EC820034BDA6 /* Mytaster-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mytaster-Prefix.pch"; sourceTree = "<group>"; };
-		2C5CFA7C1881EC820034BDA6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2C5CFA7D1881EC820034BDA6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,7 +159,6 @@
 				2C1FCB9318805E8700D0B37A /* logo.png */,
 				2C1FCB951880623C00D0B37A /* user.png */,
 				2C1FCB9718806B2600D0B37A /* Setting.png */,
-				2C5CFA691881EC820034BDA6 /* Mytaster */,
 				2C1FCB9818806B2600D0B37A /* Message.png */,
 				2C1FCB9918806B2600D0B37A /* Store.png */,
 				2C1FCB9A18806B2600D0B37A /* Voucher.png */,
@@ -259,31 +229,6 @@
 				2C1FCBB01880BF1A00D0B37A /* MT_SuggestionMainView.m */,
 			);
 			name = Suggestion_section;
-			sourceTree = "<group>";
-		};
-		2C5CFA691881EC820034BDA6 /* Mytaster */ = {
-			isa = PBXGroup;
-			children = (
-				2C5CFA6A1881EC820034BDA6 /* AppDelegate.h */,
-				2C5CFA6B1881EC820034BDA6 /* AppDelegate.m */,
-				2C5CFA6C1881EC820034BDA6 /* Main.storyboard */,
-				2C5CFA6E1881EC820034BDA6 /* InfoPlist.strings */,
-				2C5CFA701881EC820034BDA6 /* Images.xcassets */,
-				2C5CFA711881EC820034BDA6 /* main.m */,
-				2C5CFA721881EC820034BDA6 /* MT_ElementView.h */,
-				2C5CFA731881EC820034BDA6 /* MT_ElementView.m */,
-				2C5CFA741881EC820034BDA6 /* MT_MainView.h */,
-				2C5CFA751881EC820034BDA6 /* MT_MainView.m */,
-				2C5CFA761881EC820034BDA6 /* MT_SuggestionMainView.h */,
-				2C5CFA771881EC820034BDA6 /* MT_SuggestionMainView.m */,
-				2C5CFA781881EC820034BDA6 /* MT_TopBarView.h */,
-				2C5CFA791881EC820034BDA6 /* MT_TopBarView.m */,
-				2C5CFA7A1881EC820034BDA6 /* Mytaster-Info.plist */,
-				2C5CFA7B1881EC820034BDA6 /* Mytaster-Prefix.pch */,
-				2C5CFA7C1881EC820034BDA6 /* ViewController.h */,
-				2C5CFA7D1881EC820034BDA6 /* ViewController.m */,
-			);
-			name = Mytaster;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,21 +308,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C1FCB9418805E8700D0B37A /* logo.png in Resources */,
-				2C5CFA801881EC820034BDA6 /* InfoPlist.strings in Resources */,
 				2C1FCB9D18806B2600D0B37A /* Store.png in Resources */,
 				2C1FCBA61880768F00D0B37A /* square.jpeg in Resources */,
 				2C1FCB961880623C00D0B37A /* user.png in Resources */,
 				2C1FCB6F1880502F00D0B37A /* Images.xcassets in Resources */,
-				2C5CFA811881EC820034BDA6 /* Images.xcassets in Resources */,
 				2C1FCB611880502F00D0B37A /* InfoPlist.strings in Resources */,
 				2C1FCB9B18806B2600D0B37A /* Setting.png in Resources */,
-				2C5CFA7F1881EC820034BDA6 /* Main.storyboard in Resources */,
 				2C1FCBAC188092EA00D0B37A /* action.png in Resources */,
 				2C1FCB9C18806B2600D0B37A /* Message.png in Resources */,
 				2C1FCB9E18806B2600D0B37A /* Voucher.png in Resources */,
 				2C1FCBA818807A6500D0B37A /* makalong.jpeg in Resources */,
 				2C1FCB6A1880502F00D0B37A /* Main.storyboard in Resources */,
-				2C5CFA871881EC820034BDA6 /* Mytaster-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,19 +337,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C5CFA881881EC820034BDA6 /* ViewController.m in Sources */,
 				2C1FCBA418806FF600D0B37A /* MT_ElementView.m in Sources */,
 				2C1FCB6D1880502F00D0B37A /* ViewController.m in Sources */,
-				2C5CFA851881EC820034BDA6 /* MT_SuggestionMainView.m in Sources */,
 				2C1FCB911880593400D0B37A /* MT_TopBarView.m in Sources */,
 				2C1FCB671880502F00D0B37A /* AppDelegate.m in Sources */,
-				2C5CFA7E1881EC820034BDA6 /* AppDelegate.m in Sources */,
-				2C5CFA861881EC820034BDA6 /* MT_TopBarView.m in Sources */,
-				2C5CFA841881EC820034BDA6 /* MT_MainView.m in Sources */,
 				2C1FCBB11880BF1A00D0B37A /* MT_SuggestionMainView.m in Sources */,
 				2C1FCB631880502F00D0B37A /* main.m in Sources */,
-				2C5CFA821881EC820034BDA6 /* main.m in Sources */,
-				2C5CFA831881EC820034BDA6 /* MT_ElementView.m in Sources */,
 				2C1FCBA118806B8400D0B37A /* MT_MainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,22 +386,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				2C1FCB7F1880502F00D0B37A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2C5CFA6C1881EC820034BDA6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C5CFA6D1881EC820034BDA6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2C5CFA6E1881EC820034BDA6 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C5CFA6F1881EC820034BDA6 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -634,7 +552,6 @@
 				2C1FCB871880502F00D0B37A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		2C1FCB881880502F00D0B37A /* Build configuration list for PBXNativeTarget "MytasterTests" */ = {
 			isa = XCConfigurationList;
@@ -643,7 +560,6 @@
 				2C1FCB8A1880502F00D0B37A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

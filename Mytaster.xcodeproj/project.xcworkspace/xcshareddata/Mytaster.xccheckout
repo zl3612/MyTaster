@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>47050DA1-75E2-4F83-B3B9-57C26431A818</string>
+	<string>341546DC-F739-4657-9370-8CAF09606538</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Mytaster</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B2B7EEAE-812A-41F5-97E5-08798AE6968A</key>
+		<key>18F776B2-56AD-47EC-B933-3F81FB1D728D</key>
 		<string>https://github.com/zl3612/MyTaster.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Mytaster.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B2B7EEAE-812A-41F5-97E5-08798AE6968A</key>
+		<key>18F776B2-56AD-47EC-B933-3F81FB1D728D</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B2B7EEAE-812A-41F5-97E5-08798AE6968A</string>
+	<string>18F776B2-56AD-47EC-B933-3F81FB1D728D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B2B7EEAE-812A-41F5-97E5-08798AE6968A</string>
+			<string>18F776B2-56AD-47EC-B933-3F81FB1D728D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MyTaster</string>
 		</dict>
