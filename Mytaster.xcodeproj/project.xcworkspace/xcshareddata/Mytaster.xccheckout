@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>47050DA1-75E2-4F83-B3B9-57C26431A818</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Mytaster</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B2B7EEAE-812A-41F5-97E5-08798AE6968A</key>
+		<string>https://github.com/zl3612/MyTaster.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Mytaster.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B2B7EEAE-812A-41F5-97E5-08798AE6968A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zl3612/MyTaster.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B2B7EEAE-812A-41F5-97E5-08798AE6968A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B2B7EEAE-812A-41F5-97E5-08798AE6968A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyTaster</string>
+		</dict>
+	</array>
+</dict>
+</plist>
