@@ -45,6 +45,8 @@
 		85023A6E1883114900669BF3 /* MT_VoucherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85023A6D1883114900669BF3 /* MT_VoucherView.m */; };
 		85023A731883384500669BF3 /* MT_VoucherTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85023A721883384500669BF3 /* MT_VoucherTableCell.m */; };
 		85023A791883618700669BF3 /* BlueVoucherPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 85023A781883618700669BF3 /* BlueVoucherPoint.png */; };
+		85023A7D1884516300669BF3 /* MT_StoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85023A7C1884516300669BF3 /* MT_StoreViewController.m */; };
+		85023A80188456B500669BF3 /* MT_StoreVoucherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85023A7F188456B500669BF3 /* MT_StoreVoucherCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +112,10 @@
 		85023A711883384500669BF3 /* MT_VoucherTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MT_VoucherTableCell.h; sourceTree = "<group>"; };
 		85023A721883384500669BF3 /* MT_VoucherTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MT_VoucherTableCell.m; sourceTree = "<group>"; };
 		85023A781883618700669BF3 /* BlueVoucherPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueVoucherPoint.png; sourceTree = "<group>"; };
+		85023A7B1884516300669BF3 /* MT_StoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MT_StoreViewController.h; sourceTree = "<group>"; };
+		85023A7C1884516300669BF3 /* MT_StoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MT_StoreViewController.m; sourceTree = "<group>"; };
+		85023A7E188456B500669BF3 /* MT_StoreVoucherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MT_StoreVoucherCell.h; sourceTree = "<group>"; };
+		85023A7F188456B500669BF3 /* MT_StoreVoucherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MT_StoreVoucherCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +298,7 @@
 		85023A601882D5F400669BF3 /* FourChoices */ = {
 			isa = PBXGroup;
 			children = (
+				85023A7A1884514400669BF3 /* Store */,
 				85023A67188310EC00669BF3 /* Voucher */,
 				85023A611882D6A300669BF3 /* MT_SegmentControlViewController.h */,
 				85023A621882D6A300669BF3 /* MT_SegmentControlViewController.m */,
@@ -336,6 +343,17 @@
 				85023A781883618700669BF3 /* BlueVoucherPoint.png */,
 			);
 			name = Voucher;
+			sourceTree = "<group>";
+		};
+		85023A7A1884514400669BF3 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				85023A7B1884516300669BF3 /* MT_StoreViewController.h */,
+				85023A7C1884516300669BF3 /* MT_StoreViewController.m */,
+				85023A7E188456B500669BF3 /* MT_StoreVoucherCell.h */,
+				85023A7F188456B500669BF3 /* MT_StoreVoucherCell.m */,
+			);
+			name = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,11 +473,13 @@
 				2C1FCB911880593400D0B37A /* MT_TopBarView.m in Sources */,
 				2C1FCB671880502F00D0B37A /* AppDelegate.m in Sources */,
 				2C1FCBB11880BF1A00D0B37A /* MT_SuggestionMainView.m in Sources */,
+				85023A80188456B500669BF3 /* MT_StoreVoucherCell.m in Sources */,
 				85023A631882D6A300669BF3 /* MT_SegmentControlViewController.m in Sources */,
 				2C1FCB631880502F00D0B37A /* main.m in Sources */,
 				85023A661882E80200669BF3 /* MT_ChoicesTabBarController.m in Sources */,
 				85023A731883384500669BF3 /* MT_VoucherTableCell.m in Sources */,
 				2C1FCBA118806B8400D0B37A /* MT_MainView.m in Sources */,
+				85023A7D1884516300669BF3 /* MT_StoreViewController.m in Sources */,
 				85023A6A1883112100669BF3 /* MT_VoucherViewController.m in Sources */,
 				85023A6E1883114900669BF3 /* MT_VoucherView.m in Sources */,
 			);

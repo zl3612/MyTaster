@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="tSU-Cq-Y0M">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="7DP-LJ-1ZP">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="32O-yQ-mWQ">
-            <objects>
-                <viewController id="tSU-Cq-Y0M" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="h7o-A7-ySI"/>
-                        <viewControllerLayoutGuide type="bottom" id="2oa-Ua-u9M"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="l1P-YO-vV9">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EJB-xD-QsJ">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <connections>
-                                    <segue destination="09n-Qq-4f2" kind="embed" id="azq-ty-ziv"/>
-                                </connections>
-                            </containerView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sTO-av-Zl6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="67" y="35"/>
-        </scene>
         <!--Segment Control View Controller-->
         <scene sceneID="IB7-wR-Fke">
             <objects>
@@ -41,25 +13,18 @@
                         <viewControllerLayoutGuide type="bottom" id="i8H-1z-sJr"/>
                     </layoutGuides>
                     <view key="view" opaque="NO" multipleTouchEnabled="YES" contentMode="center" id="UCy-b2-Y5g">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="498"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="omt-0i-fFq">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.40000000000000002" green="0.80392156862745101" blue="0.66666666666666663" alpha="1" colorSpace="deviceRGB"/>
-                            </view>
-                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCs-Yw-UAF">
-                                <rect key="frame" x="0.0" y="94" width="320" height="474"/>
+                            <containerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCs-Yw-UAF">
+                                <rect key="frame" x="0.0" y="29" width="320" height="469"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <connections>
-                                    <segue destination="Ruh-Ds-LvS" kind="embed" id="rdW-v2-neb"/>
-                                </connections>
                             </containerView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Oif-8K-5eN">
-                                <rect key="frame" x="0.0" y="58" width="320" height="29"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="0.80392156859999997" blue="0.66666666669999997" alpha="1" colorSpace="deviceRGB"/>
                                 <segments>
                                     <segment title="Voucher"/>
                                     <segment title="Store"/>
@@ -67,22 +32,62 @@
                                     <segment title="Message"/>
                                 </segments>
                                 <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="segmentChanged:" destination="09n-Qq-4f2" eventType="valueChanged" id="AB4-Bf-mTZ"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.40000000000000002" green="0.80392156862745101" blue="0.66666666666666663" alpha="1" colorSpace="deviceRGB"/>
                     </view>
                     <toolbarItems/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="detailContainer" destination="eCs-Yw-UAF" id="6QO-82-T8o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bFc-T2-JTW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="608" y="35"/>
+            <point key="canvasLocation" x="740" y="105"/>
+        </scene>
+        <!--Framework View Controller-->
+        <scene sceneID="AAz-bu-L0i">
+            <objects>
+                <viewController id="7DP-LJ-1ZP" userLabel="Framework View Controller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UcY-Wn-osM"/>
+                        <viewControllerLayoutGuide type="bottom" id="epx-Ml-RWA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1A0-Ny-Com">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="omt-0i-fFq">
+                                <rect key="frame" x="0.0" y="20" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="0.80392156859999997" blue="0.66666666669999997" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QaC-e8-3Nv">
+                                <rect key="frame" x="0.0" y="70" width="320" height="498"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="09n-Qq-4f2" kind="embed" id="T25-7o-0FV"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iKl-EP-if3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="215" y="35"/>
         </scene>
         <!--Voucher View Controller-->
         <scene sceneID="aOr-sQ-zXo">
             <objects>
-                <tableViewController id="Ruh-Ds-LvS" customClass="MT_VoucherViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MT_VoucherViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ruh-Ds-LvS" customClass="MT_VoucherViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="FEq-o8-Jw0" customClass="MT_VoucherView">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="474"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="469"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -137,28 +142,110 @@
                         </connections>
                     </tableView>
                     <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jv6-6H-wt5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="388" y="800"/>
         </scene>
-        <!--View Controller-->
+        <!--Store View Controller-->
         <scene sceneID="OTJ-Ym-uZI">
             <objects>
-                <viewController id="SaH-D4-A1k" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MT_StoreViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SaH-D4-A1k" customClass="MT_StoreViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vL9-zZ-lKh"/>
                         <viewControllerLayoutGuide type="bottom" id="8nc-9m-CW8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="olf-xS-nTr">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="469"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sDS-Fp-emR" userLabel="Remained Points View">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BlueVoucherPoint.png" translatesAutoresizingMaskIntoConstraints="NO" id="tCy-jH-lvb">
+                                        <rect key="frame" x="268" y="6" width="32" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="247-Jt-Lo2">
+                                        <rect key="frame" x="166" y="11" width="94" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Woow! Your have" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGi-CK-4sq">
+                                        <rect key="frame" x="20" y="11" width="138" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="w4b-pI-bdU">
+                                <rect key="frame" x="0.0" y="44" width="320" height="425"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MT_StoreVoucherCell" id="zbL-H1-yHB" customClass="MT_StoreVoucherCell">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zbL-H1-yHB" id="uMs-RR-nEZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BlueVoucherPoint.png" translatesAutoresizingMaskIntoConstraints="NO" id="Na1-zp-0Eb">
+                                                    <rect key="frame" x="268" y="6" width="32" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QTC-aK-0Kf">
+                                                    <rect key="frame" x="211" y="11" width="49" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Restaurant + Amount" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E2G-Ux-t05">
+                                                    <rect key="frame" x="20" y="2" width="183" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Expire:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPC-vM-5ds">
+                                                    <rect key="frame" x="20" y="20" width="53" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="dd-mm-yyyy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDZ-VC-3Vq">
+                                                    <rect key="frame" x="81" y="20" width="122" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="sellingVoucherExpire" destination="gDZ-VC-3Vq" id="zFj-Az-21S"/>
+                                            <outlet property="sellingVoucherInfos" destination="E2G-Ux-t05" id="IHc-Yr-uRu"/>
+                                            <outlet property="sellingVoucherPrice" destination="QTC-aK-0Kf" id="bPo-UT-MhF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="SaH-D4-A1k" id="qWV-CM-qX4"/>
+                                    <outlet property="delegate" destination="SaH-D4-A1k" id="cx3-59-Xg8"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s07-if-qWQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1136" y="129"/>
+            <point key="canvasLocation" x="836" y="800"/>
         </scene>
         <!--View Controller - Voucher-->
         <scene sceneID="DbC-Zt-tbS">
