@@ -34,6 +34,17 @@
 		2C25E6FF1881EF920082EBFD /* Store.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C25E6F81881EF920082EBFD /* Store.png */; };
 		2C25E7001881EF920082EBFD /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C25E6F91881EF920082EBFD /* user.png */; };
 		2C25E7011881EF920082EBFD /* Voucher.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C25E6FA1881EF920082EBFD /* Voucher.png */; };
+		85023A0F1881FBCC00669BF3 /* SmallMessage.png in Resources */ = {isa = PBXBuildFile; fileRef = 85023A0B1881FBCC00669BF3 /* SmallMessage.png */; };
+		85023A101881FBCC00669BF3 /* SmallStore.png in Resources */ = {isa = PBXBuildFile; fileRef = 85023A0C1881FBCC00669BF3 /* SmallStore.png */; };
+		85023A111881FBCC00669BF3 /* SmallUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 85023A0D1881FBCC00669BF3 /* SmallUser.png */; };
+		85023A121881FBCC00669BF3 /* SmallVoucher.png in Resources */ = {isa = PBXBuildFile; fileRef = 85023A0E1881FBCC00669BF3 /* SmallVoucher.png */; };
+		85023A141881FC9A00669BF3 /* FourChoices.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85023A131881FC9A00669BF3 /* FourChoices.storyboard */; };
+		85023A631882D6A300669BF3 /* MT_SegmentControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85023A621882D6A300669BF3 /* MT_SegmentControlViewController.m */; };
+		85023A661882E80200669BF3 /* MT_ChoicesTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85023A651882E80200669BF3 /* MT_ChoicesTabBarController.m */; };
+		85023A6A1883112100669BF3 /* MT_VoucherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85023A691883112100669BF3 /* MT_VoucherViewController.m */; };
+		85023A6E1883114900669BF3 /* MT_VoucherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85023A6D1883114900669BF3 /* MT_VoucherView.m */; };
+		85023A731883384500669BF3 /* MT_VoucherTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85023A721883384500669BF3 /* MT_VoucherTableCell.m */; };
+		85023A791883618700669BF3 /* BlueVoucherPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 85023A781883618700669BF3 /* BlueVoucherPoint.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +94,22 @@
 		2C25E6F81881EF920082EBFD /* Store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Store.png; path = ../Store.png; sourceTree = "<group>"; };
 		2C25E6F91881EF920082EBFD /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = ../user.png; sourceTree = "<group>"; };
 		2C25E6FA1881EF920082EBFD /* Voucher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Voucher.png; path = ../Voucher.png; sourceTree = "<group>"; };
+		85023A0B1881FBCC00669BF3 /* SmallMessage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallMessage.png; sourceTree = "<group>"; };
+		85023A0C1881FBCC00669BF3 /* SmallStore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallStore.png; sourceTree = "<group>"; };
+		85023A0D1881FBCC00669BF3 /* SmallUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallUser.png; sourceTree = "<group>"; };
+		85023A0E1881FBCC00669BF3 /* SmallVoucher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallVoucher.png; sourceTree = "<group>"; };
+		85023A131881FC9A00669BF3 /* FourChoices.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FourChoices.storyboard; sourceTree = "<group>"; };
+		85023A611882D6A300669BF3 /* MT_SegmentControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MT_SegmentControlViewController.h; sourceTree = "<group>"; };
+		85023A621882D6A300669BF3 /* MT_SegmentControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MT_SegmentControlViewController.m; sourceTree = "<group>"; };
+		85023A641882E80200669BF3 /* MT_ChoicesTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MT_ChoicesTabBarController.h; sourceTree = "<group>"; };
+		85023A651882E80200669BF3 /* MT_ChoicesTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MT_ChoicesTabBarController.m; sourceTree = "<group>"; };
+		85023A681883112100669BF3 /* MT_VoucherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MT_VoucherViewController.h; sourceTree = "<group>"; };
+		85023A691883112100669BF3 /* MT_VoucherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MT_VoucherViewController.m; sourceTree = "<group>"; };
+		85023A6C1883114900669BF3 /* MT_VoucherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MT_VoucherView.h; sourceTree = "<group>"; };
+		85023A6D1883114900669BF3 /* MT_VoucherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MT_VoucherView.m; sourceTree = "<group>"; };
+		85023A711883384500669BF3 /* MT_VoucherTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MT_VoucherTableCell.h; sourceTree = "<group>"; };
+		85023A721883384500669BF3 /* MT_VoucherTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MT_VoucherTableCell.m; sourceTree = "<group>"; };
+		85023A781883618700669BF3 /* BlueVoucherPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueVoucherPoint.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +169,7 @@
 		2C1FCB5C1880502F00D0B37A /* Mytaster */ = {
 			isa = PBXGroup;
 			children = (
+				85023A131881FC9A00669BF3 /* FourChoices.storyboard */,
 				2C1FCB9218805C5300D0B37A /* Controller */,
 				2C1FCB8E1880590D00D0B37A /* Views */,
 				2C1FCB651880502F00D0B37A /* AppDelegate.h */,
@@ -186,6 +214,7 @@
 		2C1FCB8E1880590D00D0B37A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				85023A5E1882D36100669BF3 /* FourChoices_section */,
 				2C1FCBAD1880BDE200D0B37A /* Main_section */,
 				2C1FCBAE1880BE0000D0B37A /* Suggestion_section */,
 			);
@@ -195,6 +224,7 @@
 		2C1FCB9218805C5300D0B37A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				85023A601882D5F400669BF3 /* FourChoices */,
 				2C1FCB6B1880502F00D0B37A /* ViewController.h */,
 				2C1FCB6C1880502F00D0B37A /* ViewController.m */,
 			);
@@ -226,6 +256,7 @@
 		2C25E7021881EF9F0082EBFD /* images */ = {
 			isa = PBXGroup;
 			children = (
+				85023A7418835A9300669BF3 /* FourChoices */,
 				2C25E6F01881EF1B0082EBFD /* action.png */,
 				2C25E6F11881EF1B0082EBFD /* logo.png */,
 				2C25E6F41881EF920082EBFD /* makalong.jpeg */,
@@ -237,6 +268,74 @@
 				2C25E6FA1881EF920082EBFD /* Voucher.png */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		85023A021881FA8E00669BF3 /* FourChoicesBarImages */ = {
+			isa = PBXGroup;
+			children = (
+				85023A0B1881FBCC00669BF3 /* SmallMessage.png */,
+				85023A0C1881FBCC00669BF3 /* SmallStore.png */,
+				85023A0D1881FBCC00669BF3 /* SmallUser.png */,
+				85023A0E1881FBCC00669BF3 /* SmallVoucher.png */,
+			);
+			name = FourChoicesBarImages;
+			sourceTree = "<group>";
+		};
+		85023A5E1882D36100669BF3 /* FourChoices_section */ = {
+			isa = PBXGroup;
+			children = (
+				85023A6B1883112D00669BF3 /* Voucher */,
+			);
+			name = FourChoices_section;
+			sourceTree = "<group>";
+		};
+		85023A601882D5F400669BF3 /* FourChoices */ = {
+			isa = PBXGroup;
+			children = (
+				85023A67188310EC00669BF3 /* Voucher */,
+				85023A611882D6A300669BF3 /* MT_SegmentControlViewController.h */,
+				85023A621882D6A300669BF3 /* MT_SegmentControlViewController.m */,
+				85023A641882E80200669BF3 /* MT_ChoicesTabBarController.h */,
+				85023A651882E80200669BF3 /* MT_ChoicesTabBarController.m */,
+			);
+			name = FourChoices;
+			sourceTree = "<group>";
+		};
+		85023A67188310EC00669BF3 /* Voucher */ = {
+			isa = PBXGroup;
+			children = (
+				85023A681883112100669BF3 /* MT_VoucherViewController.h */,
+				85023A691883112100669BF3 /* MT_VoucherViewController.m */,
+				85023A711883384500669BF3 /* MT_VoucherTableCell.h */,
+				85023A721883384500669BF3 /* MT_VoucherTableCell.m */,
+			);
+			name = Voucher;
+			sourceTree = "<group>";
+		};
+		85023A6B1883112D00669BF3 /* Voucher */ = {
+			isa = PBXGroup;
+			children = (
+				85023A6C1883114900669BF3 /* MT_VoucherView.h */,
+				85023A6D1883114900669BF3 /* MT_VoucherView.m */,
+			);
+			name = Voucher;
+			sourceTree = "<group>";
+		};
+		85023A7418835A9300669BF3 /* FourChoices */ = {
+			isa = PBXGroup;
+			children = (
+				85023A7518835A9F00669BF3 /* Voucher */,
+				85023A021881FA8E00669BF3 /* FourChoicesBarImages */,
+			);
+			name = FourChoices;
+			sourceTree = "<group>";
+		};
+		85023A7518835A9F00669BF3 /* Voucher */ = {
+			isa = PBXGroup;
+			children = (
+				85023A781883618700669BF3 /* BlueVoucherPoint.png */,
+			);
+			name = Voucher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,14 +418,20 @@
 				2C25E6F31881EF1B0082EBFD /* logo.png in Resources */,
 				2C1FCB611880502F00D0B37A /* InfoPlist.strings in Resources */,
 				2C25E7001881EF920082EBFD /* user.png in Resources */,
+				85023A791883618700669BF3 /* BlueVoucherPoint.png in Resources */,
 				2C25E6FB1881EF920082EBFD /* makalong.jpeg in Resources */,
 				2C25E6FD1881EF920082EBFD /* Setting.png in Resources */,
+				85023A141881FC9A00669BF3 /* FourChoices.storyboard in Resources */,
 				2C25E6FE1881EF920082EBFD /* square.jpeg in Resources */,
+				85023A101881FBCC00669BF3 /* SmallStore.png in Resources */,
+				85023A121881FBCC00669BF3 /* SmallVoucher.png in Resources */,
 				2C1FCB6A1880502F00D0B37A /* Main.storyboard in Resources */,
 				2C25E6FC1881EF920082EBFD /* Message.png in Resources */,
 				2C25E6F21881EF1B0082EBFD /* action.png in Resources */,
 				2C25E7011881EF920082EBFD /* Voucher.png in Resources */,
+				85023A0F1881FBCC00669BF3 /* SmallMessage.png in Resources */,
 				2C25E6FF1881EF920082EBFD /* Store.png in Resources */,
+				85023A111881FBCC00669BF3 /* SmallUser.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,8 +455,13 @@
 				2C1FCB911880593400D0B37A /* MT_TopBarView.m in Sources */,
 				2C1FCB671880502F00D0B37A /* AppDelegate.m in Sources */,
 				2C1FCBB11880BF1A00D0B37A /* MT_SuggestionMainView.m in Sources */,
+				85023A631882D6A300669BF3 /* MT_SegmentControlViewController.m in Sources */,
 				2C1FCB631880502F00D0B37A /* main.m in Sources */,
+				85023A661882E80200669BF3 /* MT_ChoicesTabBarController.m in Sources */,
+				85023A731883384500669BF3 /* MT_VoucherTableCell.m in Sources */,
 				2C1FCBA118806B8400D0B37A /* MT_MainView.m in Sources */,
+				85023A6A1883112100669BF3 /* MT_VoucherViewController.m in Sources */,
+				85023A6E1883114900669BF3 /* MT_VoucherView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
