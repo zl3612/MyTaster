@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MT_ElementView : UIView
+@property (nonatomic, strong) UIButton *btAction, *startFetch;
+
 - (id)initWithFrame:(CGRect)frame button:(NSString *)btImage label:(NSString *)label isMiddle:(BOOL)middle;
 @end

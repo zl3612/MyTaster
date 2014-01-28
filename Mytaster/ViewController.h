@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import"MT_SuggestionMainView.h"
 
 @interface ViewController : UIViewController
 

@@ -13,7 +13,6 @@
 {
     UIImageView *bgImageView;
     UIImageView *btImageView;
-    UIButton *btAction;
     UILabel *elementName;
 }
 
@@ -32,8 +31,14 @@
             btImageView.layer.cornerRadius = 40;
             btImageView.clipsToBounds = YES;
 
+            self.btAction = [[UIButton alloc] initWithFrame:CGRectMake(frame.size.width/2.0-40, frame.size.height/2.0-40, 80, 80)];
+            self.startFetch = [[UIButton alloc] initWithFrame:CGRectMake(frame.size.width/2.0-40, frame.size.height/2.0-40, 80, 80)];
+            self.startFetch.hidden = YES;
             [self addSubview:bgImageView];
             [self addSubview:btImageView];
+            [self addSubview:self.btAction];
+            [self addSubview:self.startFetch];
+            
         }
         else
         {
@@ -45,8 +50,10 @@
             self.layer.borderWidth = 1.0f;
             btImageView = [[UIImageView alloc] initWithFrame:CGRectMake(frame.size.width/2.0-40, frame.size.height/2.0-50, 80, 80)];
             btImageView.image = [UIImage imageNamed:btImage];
+            self.btAction = [[ UIButton alloc] initWithFrame:CGRectMake(frame.size.width/2.0-40, frame.size.height/2.0-50, 80, 80)];
             [self addSubview:btImageView];
             [self addSubview:elementName];
+            [self addSubview:self.btAction];
 
         }
 

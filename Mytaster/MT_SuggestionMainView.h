@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UpperView.h"
+#import "HorizontalScroller.h"
+#import "ResBriefView.h"
 
 @interface MT_SuggestionMainView : UIView
-@property (nonatomic, strong) UISlider *budgetSlider;
-@property (nonatomic, strong) UISwitch *isStarter;
-@property (nonatomic, strong) UISwitch *isDessert;
-@property (nonatomic, strong) UISwitch *isMain;
-@property (nonatomic, strong) UISwitch *isDrink;
+
+@property (strong, nonatomic) UpperView *upperView;
+@property (strong, nonatomic) IBOutlet UITableView *adsTableView;
+@property (strong, nonatomic) IBOutlet UITableView *resBriefTableView;
+@property (strong, nonatomic) HorizontalScroller *scroller;
+
 @end
