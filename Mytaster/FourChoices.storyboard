@@ -28,8 +28,8 @@
                                 <segments>
                                     <segment title="Voucher"/>
                                     <segment title="Store"/>
-                                    <segment title="User"/>
                                     <segment title="Message"/>
+                                    <segment title="User"/>
                                 </segments>
                                 <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
